@@ -15,7 +15,7 @@
 String u = (String) (session.getAttribute("userId"));
 String r = (String) (session.getAttribute("role"));
 session.setAttribute("userId", u);
-session.setAttribute("role", r);
+session.setAttribute("role", r); 
 %>
 
 <form style="text-align:center" action='WelcomePage.jsp'>
